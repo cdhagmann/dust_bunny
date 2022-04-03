@@ -9,3 +9,4 @@
 
 # rspec failure tracking
 .rspec_status
+log/dust_bunny.log

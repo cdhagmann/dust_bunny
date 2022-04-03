@@ -1,6 +1,5 @@
-require "dust_bunny/version"
+# frozen_string_literal: true
 
-module DustBunny
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require 'dust_bunny/error'
+require 'dust_bunny/logger'
+require 'dust_bunny/file'
